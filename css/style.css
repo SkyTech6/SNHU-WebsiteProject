@@ -10,6 +10,7 @@
   }
   body {
     line-height: 1;
+    color: white;
   }
   ol, ul {
     list-style: none;
@@ -27,11 +28,34 @@
     border-spacing: 0;
   }
 
+  /* unvisited link */
+a:link {
+  color: orange;
+}
+
+/* visited link */
+a:visited {
+  color: orange;
+}
+
+/* mouse over link */
+a:hover {
+  color: orange;
+}
+
+/* selected link */
+a:active {
+  color: orange;
+}
+
 /*=========================================
     Main Styles
     =========================================*/
     body {
       font-family: arial;
+      background-image: url("https://www.itl.cat/pngfile/big/157-1572191_hd-wallpapers-for-website-background-cool-background-image.jpg");
+      background-size:cover;
+      background-repeat: no-repeat;
     }
 
     .container {
@@ -41,4 +65,22 @@
 
     .footer {
       text-align: center;
+    }
+
+    img
+    {
+      height: auto;
+      width: auto;
+    }
+
+    .drop-shadow
+    {
+      box-shadow: 5px 5px black;
+    }
+
+    .offset-rotation
+    {
+      margin-top: 15px;
+      margin-bottom: 15px;
+      transform: rotate(7deg);
     }
