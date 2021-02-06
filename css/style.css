@@ -76,6 +76,8 @@ a:active {
     .drop-shadow
     {
       box-shadow: 5px 5px black;
+      max-height: 315px;
+      max-width: 420px;
     }
 
     .offset-rotation
