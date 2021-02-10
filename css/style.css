@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+:root
+{
+  --dodger-blue: #4392f1;
+  --magnolia: #ECE8EF;
+  --lavender-web: #E3EBFF;
+  --alice-blue: #E7F0FF;
+  --independence: #4E5166;
+}
+
+html 
+{
+  background-color: var(--magnolia);     
+}
+
+body 
+{
+  width: auto;
+  height: auto;
+  margin: 1% 10% 5%;
+  background: var(--dodger-blue);
+}
+
+h1 
+{
+  color: var(--alice-blue);
+  font-family: 'Montserrat', sans-serif;
+  padding: 2%;
+  padding-bottom: 0.2%;
+}
+
+p 
+{
+  color: var(--alice-blue);
+  font-family: 'Roboto', sans-serif;
+  padding: 2%;
+  padding-top: 0.2%;
+}
+
+/* Sub Styles */
+
+.logo
+{
+  background: var(--magnolia);
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: var(--independence);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: var(--alice-blue);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: var(--lavender-web);
+  color: var(--independence);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: var(--dodger-blue);
+  color: var(--alice-blue);
+}
