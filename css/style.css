@@ -17,6 +17,7 @@ html
 
 body 
 {
+  min-width: 600px;
   width: auto;
   height: auto;
   margin: 1% 10% 5%;
@@ -79,12 +80,23 @@ p
   color: var(--alice-blue);
 }
 
+/* Justifies the content to the center off the div or body */
 .justify
 {
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 
+/* Makes sure image scales with the body */
+.justify img
+{
+  height: auto;
+  max-width: 100%;
+
+}
+
+/* Simple box shadow that can be applied to an element */
 .drop-shadow
 {
   box-shadow: 5px 5px black;
