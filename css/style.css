@@ -20,7 +20,10 @@ body
   min-width: 600px;
   width: auto;
   height: auto;
-  margin: 1% 10% 5%;
+  margin-top: 1%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 50px;
   background: var(--dodger-blue);
 }
 
@@ -100,4 +103,26 @@ p
 .drop-shadow
 {
   box-shadow: 5px 5px black;
+}
+
+#footer 
+{
+  position: fixed;
+    height: 50px;
+    background-color: var(--magnolia);
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
+
+#footer p
+{
+  color: var(--independence); 
+  text-align: center;
+}
+
+#footer a
+{
+  color: var(--dodger-blue)
 }
