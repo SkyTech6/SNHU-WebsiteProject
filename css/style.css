@@ -47,13 +47,15 @@ p
 }
 
 /* Add a black background color to the top navigation */
-.topnav {
+.topnav 
+{
   background-color: var(--independence);
   overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
-.topnav a {
+.topnav a 
+{
   float: left;
   color: var(--alice-blue);
   text-align: center;
@@ -63,13 +65,26 @@ p
 }
 
 /* Change the color of links on hover */
-.topnav a:hover {
+.topnav a:hover 
+{
   background-color: var(--lavender-web);
   color: var(--independence);
 }
 
 /* Add a color to the active/current link */
-.topnav a.active {
+.topnav a.active 
+{
   background-color: var(--dodger-blue);
   color: var(--alice-blue);
+}
+
+.justify
+{
+  display: flex;
+  justify-content: center;
+}
+
+.drop-shadow
+{
+  
 }
