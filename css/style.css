@@ -106,7 +106,35 @@ p
 {
   height: auto;
   max-width: 100%;
+}
 
+.about-left
+{
+  justify-content: left;
+  text-align: left;
+  background-color: var(--independence);
+}
+
+.about-left img
+{
+  height: auto;
+  max-width: 30%;
+}
+
+.about-left p
+{
+  padding-top: 0%;
+}
+
+.about-right
+{
+  justify-content: right;
+  text-align: right;
+}
+
+.about-right p
+{
+  padding-top: 0%;
 }
 
 /* Simple box shadow that can be applied to an element */
