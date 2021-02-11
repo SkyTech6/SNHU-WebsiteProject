@@ -40,7 +40,7 @@ p
 {
   color: var(--alice-blue);
   font-family: 'Roboto', sans-serif;
-  font-size: 200%;
+  font-size: 150%;
   padding: 2%;
   padding-top: 0.2%;
 }
@@ -168,6 +168,6 @@ input[type=submit]:hover {
 
 .container label
 {
-  font-family: 'Roboto', sans sans-serif;
+  font-family: 'Roboto', sans-serif;
   color:var(--alice-blue);
 }
