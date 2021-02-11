@@ -15,7 +15,7 @@
 
 <header>
 	<div class="logo">
-		<img class="logo" src="/https://skytech6.github.io/SNHU-WebsiteProject/img/logo-independence.png">
+		<img class="logo" src="https://skytech6.github.io/SNHU-WebsiteProject/img/logo-independence.png">
 	</div>
 </header>
 
@@ -29,10 +29,36 @@
 	</div>
 
 	<h1>Contact Us</h1>
-	<p>Then let's begin. Use the panel on the left to select a visually compatible pair of fonts & preview them here.
-		You can pick more fonts for specific headings etc later on. Save your favourite font pairs for later using the
-		heart.</p>
+
+	<div class="container">
+		<form>
+
+			<label for="email">Contact Email</label>
+			<input type="text" id="email" name="email" placeholder="contact@company.com">
+
+			<label for="company">Company Name (if applicable)</label>
+			<input type="text" id="company" name="companyname" placeholder="Your company name">
+
+			<label for="service">Service Needed</label>
+			<select id="text" name="service">
+				<option value="rpd">Rapid Prototype</option>
+				<option value="porting">Porting</option>
+				<option value="full-development">Full Development</option>
+			</select>
+
+			<label for="subject">Game Description</label>
+			<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+			<input type="submit" value="Submit">
+
+		</form>
+	</div>
 
 </body>
+
+<div id="footer">
+	<p>SNHU IT-270 | <a href="https://skycopeland.com/">Sky Copeland</a> | <a
+			href="https://github.com/SkyTech6/SNHU-WebsiteProject/">GitHub</a></p>
+</div>
 
 </html>
