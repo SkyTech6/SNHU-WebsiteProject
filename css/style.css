@@ -93,6 +93,32 @@ p
   color: var(--alice-blue);
 }
 
+.alt-color
+{
+  background-color: var(--independence);
+}
+
+.justify-left-rail
+{
+  padding-left: 1%;
+  width: 19%;
+  float: left;
+}
+
+.justify-left-rail img
+{
+  height: auto;
+  max-width: 100%;
+}
+
+.justify-right-rail
+{
+  padding-right: 1%;
+  padding-left: 1%;
+  width: 78%;
+  float: left;
+}
+
 /* Justifies the content to the center off the div or body */
 .justify
 {
