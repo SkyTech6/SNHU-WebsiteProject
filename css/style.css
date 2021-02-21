@@ -98,27 +98,6 @@ p
   background-color: var(--independence);
 }
 
-.justify-left-rail
-{
-  padding-left: 1%;
-  width: 19%;
-  float: left;
-}
-
-.justify-left-rail img
-{
-  height: auto;
-  max-width: 100%;
-}
-
-.justify-right-rail
-{
-  padding-right: 1%;
-  padding-left: 1%;
-  width: 78%;
-  float: left;
-}
-
 /* Justifies the content to the center off the div or body */
 .justify
 {
@@ -131,7 +110,7 @@ p
 .justify img
 {
   height: auto;
-  max-width: 100%;
+  max-width: 616px;
 }
 
 .about-left
@@ -237,4 +216,31 @@ input[type=submit]:hover
 {
   font-family: 'Roboto', sans-serif;
   color:var(--alice-blue);
+}
+
+#steam 
+{
+  position: relative;
+  padding-bottom: 25%;
+  padding-top: 5%;
+  height: 0;
+  overflow: hidden;
+  display:block;
+  color: var(--independence);
+}
+  
+#steam iframe,
+#steam object,
+#steam embed 
+{
+  position: absolute;
+  top: 0;
+  padding-left: 25%;
+  width: 50%;
+  height: 100%;
+}
+
+#steam body.locale_en.no_theme_toggle 
+{
+  background-color: var(--dodger-blue);
 }
